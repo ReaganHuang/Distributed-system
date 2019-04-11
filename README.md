@@ -1,7 +1,5 @@
 # Distributed-system
-Books Data Clustering for libraries based on Amazon reviews using distributed systems
-
-The purpose of this project is to find out similar books according to the Amazon reviews.   
+The purpose of this project is to processe Amazon review data by building a distributed system on AWS. The pipeline includes automating data extraction from S3 to MongoDB and clustering books on Amazon based on the review data using pyspark ML.
 
 Our method is to get the feature vectors of each book by applying TFIDF to collections of the texts of corresponding books and use these feature vectors to cluster the books. Once we get the clusters, we would have some sense of book similarities. We can even try calculating distances between every two books in one cluster.  
 
